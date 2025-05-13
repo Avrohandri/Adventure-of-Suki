@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Weapon_Sten_Shoot
+  m_Controller: {fileID: 9100000, guid: c28c60ef1073c3a4ead23e5af12b8461, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: da79230c43238b84ea637d9dd51fdd6d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9087261b925e8cb4cbaabc61b0f86f67, type: 2}

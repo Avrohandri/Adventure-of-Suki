@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ebc613dd11e88498f16990218487c9, type: 3}
+  m_Name: Config_Iron
+  m_EditorClassIdentifier: 
+  Level: 1
+  Name: Iron
+  Icon: {fileID: -1526386745, guid: ce94dd8573addbc4fa17e186e7c6ebd6, type: 3}
+  CurrentHealth: 8
+  MaxHealth: 8
+  Armor: 6
+  MaxArmor: 6
+  Energy: 150
+  MaxEnergy: 150
+  CriticalChance: 20
+  CriticalDamage: 80
+  HealthMaxUpgrade: 12
+  ArmorMaxUpgrade: 10
+  EnergyMaxUpgrade: 220
+  CriticalMaxUpgrade: 30
+  Unlocked: 0
+  UnlockCost: 500
+  UpgradeCost: 500
+  UpgradeMultiplier: 50
+  PlayerPrefab: {fileID: 2239887797361417007, guid: 7bf33961eb748644c97a13633484db44, type: 3}

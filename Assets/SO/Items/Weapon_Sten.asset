@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c39c91c9c94a31afbb6d72238e2f08, type: 3}
+  m_Name: Weapon_Sten
+  m_EditorClassIdentifier: 
+  ID: Sten
+  Icon: {fileID: -1651638725, guid: be39d58b5f0529d41b509ea1aa9166e9, type: 3}
+  WeaponType: 1
+  Rarity: 1
+  Damage: 2
+  RequiredEnergy: 2
+  TimeBetweenShots: 0
+  MinSpread: -4
+  MaxSpread: 4
+  WeaponPrefab: {fileID: -3406834610076500032, guid: fe1bf1f2bfec87f49a2443fd0d272d3a, type: 3}

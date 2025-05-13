@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c39c91c9c94a31afbb6d72238e2f08, type: 3}
+  m_Name: EnemyWeapon_3
+  m_EditorClassIdentifier: 
+  ID: Glock
+  Icon: {fileID: 627836241, guid: fc93f55d4d81dc948bcb0c29b5ff6b79, type: 3}
+  WeaponType: 0
+  Rarity: 0
+  Damage: 3
+  RequiredEnergy: 0
+  TimeBetweenShots: 0
+  MinSpread: -2
+  MaxSpread: 3
+  WeaponPrefab: {fileID: -4865702626503603921, guid: b4804a3a50f5f2642a67daff836f7cdc, type: 3}

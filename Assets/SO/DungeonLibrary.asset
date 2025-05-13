@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1c652ce4f5e4d18bdcbdfa4d07d6efe, type: 3}
+  m_Name: DungeonLibrary
+  m_EditorClassIdentifier: 
+  Levels:
+  - Name: Level 1
+    Dungeons:
+    - {fileID: 3492722352752597590, guid: 008ffbd7678c4644ba87a195ca93acaa, type: 3}
+    - {fileID: 4241347680678657222, guid: 575166c2aa15a4b45aab12f4d311618d, type: 3}
+    - {fileID: 8318035796122685315, guid: 8def2a9cb9962ac45a66d7c7328b0bf5, type: 3}
+    - {fileID: 7740429034815584188, guid: 5fa7f3bc55119b141931c159c420d123, type: 3}
+    - {fileID: 389783575228378858, guid: 2f301e796b56e714db45557145be8442, type: 3}
+    Enemies:
+    - {fileID: 4316638389226678843, guid: 1cf07871f00a6e445a20a497c366e39e, type: 3}
+    - {fileID: 5018739773517410727, guid: f92cc5c47dc84e54ca9c7e408def36f7, type: 3}
+    - {fileID: 4316638389226678843, guid: cac06227769da934cb85d59085fe4dfb, type: 3}
+    Boss: {fileID: 4316638389226678843, guid: 2ab13d1244b40e54a91b089b64a3a305, type: 3}
+    MinEnemiesPerRoom: 3
+    MaxEnemiesPerRoom: 6
+    MinBonusPerEnemy: 4
+    MaxBonusPerEnemy: 8
+    ChestItems: {fileID: 11400000, guid: 352328ffb31b26548aa1a6fa8482b5a3, type: 2}
+  DoorNS: {fileID: 2961684984685487470, guid: 53802800bf30cb343b3de30e2ddbe4c2, type: 3}
+  DoorWE: {fileID: 1143116225311884717, guid: 7d67058e9c20aa4479806f255148d439, type: 3}
+  Chest: {fileID: 9190972519728180136, guid: 4e203d24ad6a98e4bba54f16aec89de8, type: 3}
+  Tombstones: {fileID: 4489675366389809006, guid: 26ae455a58cafbb4da55c9afdd12ec70, type: 3}
+  Portal: {fileID: 1893410051451357317, guid: b1abd02deca3f344496233ea43851aa1, type: 3}
+  EnemyBonus:
+  - {fileID: 2588884840741128516, guid: 0bfc7240d09d5bd47a7cc95191f09761, type: 3}
+  - {fileID: 8624594928363113093, guid: c46a87dd7abf6e4468bcb51718fc49b7, type: 3}
+  BonusCreationRadius: 2

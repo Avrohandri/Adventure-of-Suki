@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c39c91c9c94a31afbb6d72238e2f08, type: 3}
+  m_Name: Weapon_MP5
+  m_EditorClassIdentifier: 
+  ID: MP5
+  Icon: {fileID: 1710860472, guid: be39d58b5f0529d41b509ea1aa9166e9, type: 3}
+  WeaponType: 1
+  Rarity: 2
+  Damage: 4
+  RequiredEnergy: 3
+  TimeBetweenShots: 0
+  MinSpread: -3
+  MaxSpread: 3
+  WeaponPrefab: {fileID: 4782677975950420000, guid: 277039fcd24b19a4aa313d2a29232777, type: 3}
